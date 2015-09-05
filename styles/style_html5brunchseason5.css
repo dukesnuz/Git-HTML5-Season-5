@@ -257,6 +257,9 @@ thead, tfoot{
 .rowcolor{
 	background-color: #2A4E6E;
 }
+
+
+/**********************Colors**************/
 .color-primary-0 { color: #2A4E6E }	/* Main Primary color */
 .color-primary-1 { color: #BECFDF }
 .color-primary-2 { color: #020407 }
@@ -270,10 +273,9 @@ thead, tfoot{
 /************hour 13 floats padding margins********/
 
 #hr1_d1,#hr1_d2,#hr1_d3{
-	float:left;
+    float:left;
 	clear:all;
 	color:#BECFDF;
- 
 	font-weight:bold;
 	font-size: 2em;
     text-align:center; 
@@ -287,8 +289,6 @@ thead, tfoot{
 	width:300px;
 	height:300px;
 	border:none;
-	
-	
 }
 
 
