@@ -272,6 +272,7 @@ thead, tfoot{
 
 /************hour 13 floats padding margins********/
 
+
 #hr1_d1,#hr1_d2,#hr1_d3{
     float:left;
 	clear:all;
@@ -292,4 +293,18 @@ thead, tfoot{
 	padding:2%;
 }
 
-
+@media only screen and(min-width:300px)
+{
+	#hr1_d1 img,#hr1_d2 img,#hr1_d3 img{
+		padding:0;
+		float:none;
+		width:auto;
+		height:auto;
+	}
+	#hr1_d1,#hr1_d2,#hr1_d3{
+   		width:100%;
+   		margin:2%;
+   	    padding:2%;
+  }
+ 
+}
