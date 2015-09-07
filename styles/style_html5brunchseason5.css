@@ -143,7 +143,7 @@ a:visited{
 }
 a:hover, a:active{
 	color:#ffffff;
-	font-size: 150%;
+	font-size: 110%;
 	background-color: #020407;
 	padding:.5px;;
 }
@@ -274,24 +274,30 @@ thead, tfoot{
 /************hour 13 floats padding margins********/
 
 
-#hr1_d1,#hr1_d2,#hr1_d3{
+
+
+#pictures{
     float:left;
-	 
+    width:100%;
+     
+   }
+#hr1_d1,#hr1_d2,#hr1_d3{	 
 	color:#BECFDF;
 	font-weight:bold;
-	font-size: 2em;
+	font-size: 1em;
     text-align:center; 
     padding:2%;
     text-align: center;
     margin: 3%;
+    float:left;
 }
 	
-
+ 
 #hr1_d1 img,#hr1_d2 img,#hr1_d3 img{
 	width:300px;
 	height:300px;
 	border:none;
-	padding:2%;
+	padding:3%;
 }
 
 @media screen and (max-width:300px)
