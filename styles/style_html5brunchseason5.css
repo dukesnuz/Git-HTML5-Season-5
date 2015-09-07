@@ -223,7 +223,7 @@ table{
 	width:50%;
 	margin-left:25%;
 	
-	margin-top5%;
+	margin-top:3px;
 	margin-bottom:2%;
 
 }
@@ -236,9 +236,9 @@ tr,th, td{
 
 
 .aligntext{
-	text-align: center;
+	text-align:center;
 	vertical-align: middle;
-	font-size: 12px
+	font-size: 12px;
 	font-style:oblique;
 	color:#ffffff;
 }
@@ -276,7 +276,7 @@ thead, tfoot{
 
 #hr1_d1,#hr1_d2,#hr1_d3{
     float:left;
-	clear:all;
+	 
 	color:#BECFDF;
 	font-weight:bold;
 	font-size: 2em;
@@ -294,7 +294,7 @@ thead, tfoot{
 	padding:2%;
 }
 
-@media only screen and(min-width:300px)
+@media screen and (max-width:300px)
 {
 	#hr1_d1 img,#hr1_d2 img,#hr1_d3 img{
 		padding:0;
@@ -307,5 +307,5 @@ thead, tfoot{
    		margin:2%;
    	    padding:2%;
   }
- 
+
 }
