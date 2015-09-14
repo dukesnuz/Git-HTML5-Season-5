@@ -106,7 +106,7 @@ aside{
      padding:12px;
      width:25%;
      text-align: center;
-     float:right;
+    float:right;
      
 }
 aside ul{
@@ -167,9 +167,14 @@ footer{
 }
 
  
+ #syllabus, #about{
+	
+	  float:left;
+	  width:65%;
+}
  
 /*******************Column for My Listings*************************/
-#listings, #mytable{
+#about, #listings, #mytable{
 	float:left;
 	width:99%;
 	border: 5px dotted  #4A6B8A ;
@@ -269,8 +274,51 @@ thead, tfoot{
 
 
 /*****************************************End my table styles************************************************************************/
+/*******Navigation*******/
+#main nav{
+	float:left;
+	clear:left;
+	margin:0px 0px 20px 25%;
+	width:45%;
+	/*background-color: #020407 ;*/
+	background-color:#041F37 ;
+	border: 0px solid white;
+}
 
+#main nav  ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display: inline;
+		
+}
 
+#main nav li{
+	display:inline;
+	line-height:1.8em;
+	
+	
+}
+
+#main nav ul li a:link, #main nav ul li a:visited{
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration:none;
+	padding: 7px 20px 7px 20px;
+	background-color: #2A4E6E ;
+	color:#020407;
+	border-radius: 10% 10% 0 0;
+}
+
+#main nav  ul li a:hover,#main nav  ul li a:active{
+	font-size:10pt;
+	font-weight: bold;
+	text-decoration:none;
+	padding: 7px 20px 7px 20px;
+	background-color: #ffffff;
+	color:#2A4E6E ;
+
+}
 /************hour 13 floats padding margins********/
 
 
@@ -313,5 +361,8 @@ thead, tfoot{
    		margin:2%;
    	    padding:2%;
   }
+
+
+
 
 }
