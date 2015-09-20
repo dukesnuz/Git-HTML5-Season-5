@@ -273,7 +273,7 @@ thead, tfoot{
 #main nav{
 	float:left;
 	clear:left;
-	margin:0px 0px 5% 0px
+	margin:0px 0px 5% 0px;
 	width:100%;
 	/*background-color: #020407 ;
 	background-color:#041F37 ;*/
@@ -303,7 +303,7 @@ thead, tfoot{
 	text-decoration:none;
 	padding: 7px 20px 7px 20px;
 	background-color: #2A4E6E ;
-	color:#020407;
+	color:#BECFDF;
 	/*border-radius: 10% 10% 0 0;*/
 	
 }
@@ -353,7 +353,7 @@ thead, tfoot{
 
 	#hr1_d1 img,#hr1_d2 img,#hr1_d3 img{
 		float:left;
-		clear:all;
+		/*clear:all;*/
 		text-align: center;
 		font-size: 10px;
 	}
@@ -371,4 +371,29 @@ aside{
      
 }
 
+/**************Page 325 diplay rollover text in navigation***************************************/
+nav a.more{
+	position:relative;
+	z-index: 24;
+}
+nav a.more:hover{
+	z-index: 25;
+}
+nav a.more span{
+	display: none;
+}
+
+nav a.more:hover span{
+	font-weight: bold;
+	display: block;
+	position: absolute;
+	top:35px;
+	left:25%;
+	width: 300px;
+	padding:3px;
+	color:#BECFDF;
+	line-height: 1em;
+	background:#041F37;
+	border-radius: 10%;
+}
 }
