@@ -349,6 +349,13 @@ thead, tfoot{
 	padding:3%;
 }
 
+/****************************************Hour 19 added spinning to header**********************************/
+#the_circle{
+	display: none;
+}
+ 
+
+/***********************************Wide screen***************************************************/
 @media(min-width:53.75em){
 
 	#hr1_d1 img,#hr1_d2 img,#hr1_d3 img{
@@ -396,4 +403,56 @@ nav a.more:hover span{
 	background:#041F37;
 	border-radius: 10%;
 }
+
+/****************************************Hour 19 added spinning to header**********************************/
+#the_circle{
+	display:inline-block;
+	margin-left:4%;
+	margin-top:1px;
+	background-color: #BECFDF;
+	width: 110px;
+	height:110px;
+ 
+	border-radius:50%;
+	text-align: center;
+	text-align:center;
+	position: absolute;
+	z-index: 99999;
+	vertical-align: baseline;
+}
+ #the_circle p{
+	color:#020407;
+	padding-top: 25%;
+	font-weight: bold;
+}
+#the_circle{
+	
+	-moz-animation: spin 5s 1 ease;
+    -ms-animation: spin 5s 1 ease;
+    -o-animation: spin 5s 1 ease;
+    -webkit-animation: spin 5s 1 ease;
+    animation: spin 5s 1 ease;
+	 
+}
+
+@-moz-keyframes spin{
+	from{
+		-moz-transform:rotateY(0deg) rotateX(0deg);
+		-ms-transform:rotateY(0deg) rotateX(0deg);
+		-o-transform:rotateY(0deg) rotateX(0deg);
+		-webkit-transform:rotateY(0deg) rotateX(0deg);
+		transform:rotateY(0deg) rotateX(0deg);
+		
+	}
+	to{
+		-moz-transform:rotateY(360deg) rotateX(0deg);
+		-ms-transform:rotateY(360deg) rotateX(0deg);
+		-o-transform:rotateY(360deg) rotateX(0deg);
+		-webkit-transform:rotateY(360deg) rotateX(0deg);
+		transform:rotateY(360deg) rotateX(0deg);
+	}
+}
+
+
+
 }
