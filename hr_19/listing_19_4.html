@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>creating a 3D Cube</title>
+		
+		<style type="text/css">
+			body{
+				margin:75px 0px 0px 75px
+			}
+			
+			#wrapper{
+				-moz-perspective:500px;
+				-webkit-perspective:500px;
+				perspective:500px;
+			}
+			#the_cube{
+				-moz-transform-style:preserve-3d;
+				-webkit-transform-style:preserve-3d;
+				transform-style:preserve-3d;
+			}
+			
+			#the_cube div{
+				width:150px;
+				height:150px;
+				position:absolute;
+				
+				border: 1px solid black;
+				background: rgba(200,200,200,0.5);
+				
+				font-size: 125%;
+				font-weight: bold;
+				line-height: 125px;
+				text-align: center;
+			}
+			
+			.front{
+				-moz-transform:translateZ(75px);
+				-ms-transform:translateZ(75px);
+				-o-transform:translateZ(75px);
+				-webkit-transform:translateZ(75px);
+				transform:translateZ(75px);
+			}
+			
+			.back{
+				-moz-transform:rotateY(180deg) translateZ(75px):
+				-ms-transform:rotateY(189deg) translateZ(75px);
+				-o-transform:rotateY(180deg) translateZ(75px);
+				-webkit-transform:rotateY(180deg) translateZ(75px);
+				transform:rotateY(180deg) translateZ(75px);
+				
+			}
+			
+			.right{
+				-moz-transform:rotateY(90deg) translateZ(75px);
+				-ms-transform:rotateY(90deg) translateZ(75px);
+				-o-transform:rotateY(90deg) translateZ(75px);
+				-webkit-transform:rotateY(90deg) translateZ(75px);
+				transform:rotateY(90deg) translateZ(75px);
+			}
+			
+			.left{
+				-moz-transform:rotateY(-90deg) translateZ(75px);
+				-ms-transform:rotateY(-90deg) translateZ(75px);
+				-o-transform:rotateY(-90deg) translateZ(75px);
+				-webkit-transform:rotateY(-90deg) translateZ(75px);
+				transform:rotateY(-90deg) translateZ(75px);
+			}
+			
+			.top{
+				-moz-transform:rotateX(90deg) translateZ(75px);
+				-ms-transform:rotateX(90deg) translateZ(75px);
+				-o-transform:rotateX(90deg) translateZ(75px);
+				-webkit-transform:rotateX(90deg) translateZ(75px);
+				transform:rotateX(90deg) translateZ(75px);
+			}
+			
+			.bottom{
+				-moz-transform:rotateX(-90deg) translateZ(75px);
+				-ms-transform:rotateX(-90deg) translateZ(75px);
+				-o-transform:rotateX(-90deg) translateZ(75px);
+				-webkit-transform:rotateX(-90deg) translateZ(75px);
+				transform:rotateX(-90deg) translateZ(75px);
+			}
+		</style>
+	</head>
+	
+	<body>
+		
+		
+		
+		<div id="wrapper">
+			<div id="the_cube">
+				<div class="front">FRONT</div>
+				<div class="back">BACK</div>
+				<div class="left">LEFT</div>
+				<div class="right">RIGHT</div>
+				<div class="top">TOP</div>
+				<div class="bottom">BOTTOM</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=6080262; 
+var sc_invisible=1; 
+var sc_security="ed805b7b"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify site
+analytics" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/6080262/0/ed805b7b/1/"
+alt="shopify site analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+	</body>
+</html>
