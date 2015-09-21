@@ -431,7 +431,7 @@ nav a.more:hover span{
     -ms-animation: spin 5s 1 ease;
     -o-animation: spin 5s 1 ease;
     -webkit-animation: spin 5s 1 ease;
-    animation: spin 5s 1 ease;
+      animation: spin 5s 1 ease;
 	 
 }
 
@@ -440,8 +440,8 @@ nav a.more:hover span{
 		-moz-transform:rotateY(0deg) rotateX(0deg);
 		-ms-transform:rotateY(0deg) rotateX(0deg);
 		-o-transform:rotateY(0deg) rotateX(0deg);
-		-webkit-transform:rotateY(0deg) rotateX(0deg);
-		transform:rotateY(0deg) rotateX(0deg);
+		-transform:rotateY(0deg) rotateX(0deg);
+		 transform:rotateY(0deg) rotateX(0deg);
 		
 	}
 	to{
@@ -449,7 +449,7 @@ nav a.more:hover span{
 		-ms-transform:rotateY(360deg) rotateX(0deg);
 		-o-transform:rotateY(360deg) rotateX(0deg);
 		-webkit-transform:rotateY(360deg) rotateX(0deg);
-		transform:rotateY(360deg) rotateX(0deg);
+		 transform:rotateY(360deg) rotateX(0deg);
 	}
 }
 
