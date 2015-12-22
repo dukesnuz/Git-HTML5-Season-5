@@ -195,15 +195,13 @@ footer{
 	border:none;
 	
 }
-#listings #a{
+/********************************My Listings***************/
+#listings #a,#listings #b,#listings #c,#listings #d{
 	float:left;
-	width:25%;
+	width:100%;
 }
 
-#listings #b{
-	float:left;
-	width:25%;
-}
+
 /*
 #listings h2{
   
@@ -315,8 +313,9 @@ thead, tfoot{
     padding: 7px 20px 7px 20px;
 	background-color: #ffffff;
 	color:#2A4E6E ;
-;
 }
+
+ 
 /************hour 13 floats padding margins********/
 
 #pictures{
@@ -376,6 +375,12 @@ aside{
 	 width: 30%;
      float: left;
      
+}
+/********************************My Listings***************/
+#listings #a,#listings #b,#listings #c{
+	float:left;
+	width:15%;
+	margin-left: 10%;
 }
 
 /**************Page 325 diplay rollover text in navigation***************************************/
